@@ -4,12 +4,20 @@
     padding: 0;
     margin: 0;
 }
+html {
+    background: #1e1e1e;
+    width: 100%;
+    height: 100%;
+}
 .navbar {
-    background-color: #121212;
+    background-color: #1e2124;
     color: #fff;
     display: flex;
     align-items: center;
+    justify-content: center;
     font-family: 'Source Sans Pro', sans-serif;
+    max-height: 100px;
+    border-bottom:
 }
 .navbar .title {
     font-family: 'Source Sans Pro', sans-serif;
@@ -23,4 +31,21 @@
     font-size: 1.5rem;
     margin-left: 20px;
     margin-right: 20px;
+}
+.navitem {
+    font-weight: 200;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+.navitem:hover {
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+.cu-pointer {
+    cursor: pointer;
 }
